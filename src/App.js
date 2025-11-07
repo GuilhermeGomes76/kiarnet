@@ -20,9 +20,14 @@ export default function KiarnetLanding() {
           <p className="text-xl mb-8">
             Conecte-se com o que realmente importa
           </p>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded font-bold text-lg">
+          <a
+            href="https://wa.me/5511940573903?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20planos%20da%20Kiarnet."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded font-bold text-lg inline-block"
+          >
             Ver Planos
-          </button>
+          </a>
         </div>
       </section>
 
@@ -44,9 +49,14 @@ export default function KiarnetLanding() {
                 <li>✓ Instalação grátis</li>
                 <li>✓ Suporte 24h</li>
               </ul>
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded font-bold">
+              <a
+                href="https://wa.me/5511940573903?text=Olá!%20Tenho%20interesse%20no%20plano%2060%20MEGA%20da%20Kiarnet."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block bg-purple-600 hover:bg-purple-700 text-white py-3 rounded font-bold text-center"
+              >
                 Assinar
-              </button>
+              </a>
             </div>
             
             {/* Plano 2 */}
@@ -58,9 +68,14 @@ export default function KiarnetLanding() {
                 <li>✓ Instalação grátis</li>
                 <li>✓ Suporte 24h</li>
               </ul>
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded font-bold">
+              <a
+                href="https://wa.me/5511940573903?text=Olá!%20Tenho%20interesse%20no%20plano%20100%20MEGA%20da%20Kiarnet."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block bg-purple-600 hover:bg-purple-700 text-white py-3 rounded font-bold text-center"
+              >
                 Assinar
-              </button>
+              </a>
             </div>
             
             {/* Plano 3 - Destaque */}
@@ -78,9 +93,14 @@ export default function KiarnetLanding() {
                 <li>✓ Paramount+ incluso</li>
                 <li>✓ SKY+ incluso</li>
               </ul>
-              <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 py-3 rounded font-bold">
+              <a
+                href="https://wa.me/5511940573903?text=Olá!%20Tenho%20interesse%20no%20plano%20300%20MEGA%20da%20Kiarnet."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block bg-yellow-400 hover:bg-yellow-500 text-gray-900 py-3 rounded font-bold text-center"
+              >
                 Assinar
-              </button>
+              </a>
             </div>
             
           </div>
@@ -95,15 +115,12 @@ export default function KiarnetLanding() {
           </h2>
           
           <div className="max-w-2xl mx-auto">
-            
-            {/* Informações */}
             <div className="bg-gray-700 p-8 rounded-lg text-white text-center">
               <div>
                 <p className="font-bold text-3xl mb-4">📞 Telefone</p>
                 <p className="text-4xl font-bold">(11) 94057-3903</p>
               </div>
             </div>
-            
           </div>
         </div>
       </section>
@@ -116,7 +133,7 @@ export default function KiarnetLanding() {
 
       {/* Botão WhatsApp Flutuante */}
       <a
-        href="https://wa.me/5511940573903"
+        href="https://wa.me/5511940573903?text=Olá!%20Quero%20falar%20com%20a%20Kiarnet."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 left-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition"
