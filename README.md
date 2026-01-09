@@ -39,6 +39,7 @@ e revisão de código.
 ## 👨‍💻 Autor
 
 Guilherme Gomes Silva
+
 GitHub: https://github.com/GuilhermeGomes76
 
 Email: guilhermegomessilva76@gmail.com
